@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src:  url("https://fonts.googleapis.com/css?family=Roboto") format("truetype");
+}
+
+body {
+  font-family: $base-font;
+  text-rendering: geometricPrecision;
+}

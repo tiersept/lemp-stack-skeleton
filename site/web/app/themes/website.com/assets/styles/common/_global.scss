@@ -1,0 +1,48 @@
+// Resets & essentials
+
+*, *:before, *:after {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  &:active:hover:focus {
+    outline: 0;
+    border: none;
+    text-decoration: none;
+  }
+}
+
+body {
+  backface-visibility: hidden;
+}
+
+button {
+  transform: translate3d(0, 0, 0.1px);
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+}
+
+input {
+  &:focus {
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    text-decoration: none;
+  }
+}

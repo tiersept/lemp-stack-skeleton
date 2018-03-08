@@ -37,7 +37,16 @@ Setup config files in trellis/group_vars/development/
 * /vault      -> generate passwords & salt
 * /sites      -> set site name, droplet ip & git repo //https://roots.io/salts.html
 
-## Run VM
+## Run Dev environment
+
+Run in local /trellis
+
+```
+ansible-galaxy install -r requirements.yml
+
+```
+
+To run VM
 
 ```terminal
 cd trellis/

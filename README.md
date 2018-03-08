@@ -47,8 +47,16 @@ ansible-galaxy install -r requirements.yml
 
 To run VM
 
-```terminal
-cd trellis/
-s
+```
 vagrant up
+```
+
+In /site/web/app/themes/website.com
+
+```
+npm install
+bower install
+
+gulp watch
+gulp production
 ```

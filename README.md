@@ -43,13 +43,12 @@ Run in local /trellis
 
 ```
 ansible-galaxy install -r requirements.yml
-
 ```
 
 To run VM
 
 ```terminal
 cd trellis/
-
+s
 vagrant up
 ```

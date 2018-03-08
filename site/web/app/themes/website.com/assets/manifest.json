@@ -22,6 +22,6 @@
     }
   },
   "config": {
-    "devUrl": "http://uwbedrijfsapp.dev"
+    "devUrl": "http://skeleton.dev"
   }
 }

@@ -1,7 +1,7 @@
 # lemp-stack-skeleton
 Roots based Wordpress skeleton
 
-Filled with all the goodness to get yoself started locally and easy ass remote deploys.
+Filled with all the goodness to get yoself started locally and easy remote deploys.
 
 ## Versions
 

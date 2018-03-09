@@ -51,6 +51,15 @@ To run VM
 vagrant up
 ```
 
+In /site/web/app/themes/website.com/assets/manifest.json
+- Change to website name used in /development/sites
+
+```
+  "config": {
+    "devUrl": "http://skeleton.dev"
+  }
+```
+
 In /site/web/app/themes/website.com
 
 ```

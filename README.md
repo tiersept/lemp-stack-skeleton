@@ -57,6 +57,7 @@ In /site/web/app/themes/website.com
 npm install
 bower install
 
+gulp
 gulp watch
 gulp production
 ```
